@@ -16,7 +16,7 @@ public class ProdutoDTO {
         this.preco = preco;
     }
 
-    // Getters e Setters (mesmo padrão, apenas adicionado preco)
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public String getNome() { return nome; }
