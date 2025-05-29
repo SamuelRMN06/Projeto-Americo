@@ -1,5 +1,7 @@
-const produtoApi = 'http://localhost:8080/produtos';
+const produtoApi = 'http://localhost:8080/produtos'; 
+// Para sincronizar com o back na aws, é necessário trocar o local host pelo ip público da máquina na nuvem
 const categoriaApi = 'http://localhost:8080/categorias';
+// Para sincronizar com o back na aws, é necessário trocar o local host pelo ip público da máquina na nuvem
 
 // ---------- Produto ----------
 const produtoTableBody = document.querySelector('#produtosTable tbody');
